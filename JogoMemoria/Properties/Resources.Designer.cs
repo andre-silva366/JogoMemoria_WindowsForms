@@ -61,12 +61,11 @@ namespace JogoMemoria.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        ///   Looks up a localized string similar to .
         /// </summary>
-        internal static System.Drawing.Bitmap android {
+        internal static string android {
             get {
-                object obj = ResourceManager.GetObject("android", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ResourceManager.GetString("android", resourceCulture);
             }
         }
         
@@ -111,12 +110,11 @@ namespace JogoMemoria.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        ///   Looks up a localized string similar to .
         /// </summary>
-        internal static System.Drawing.Bitmap excel {
+        internal static string excel {
             get {
-                object obj = ResourceManager.GetObject("excel", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ResourceManager.GetString("excel", resourceCulture);
             }
         }
         
@@ -129,16 +127,7 @@ namespace JogoMemoria.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap html {
-            get {
-                object obj = ResourceManager.GetObject("html", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
+                
         
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.

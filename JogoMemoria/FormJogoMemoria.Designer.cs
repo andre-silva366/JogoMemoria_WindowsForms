@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormTelaInicial));
             pictureBox1A = new PictureBox();
             pictureBox1B = new PictureBox();
             pictureBox1D = new PictureBox();
@@ -72,11 +71,6 @@
             pictureBox2G = new PictureBox();
             pictureBox1G = new PictureBox();
             label1 = new Label();
-            label2 = new Label();
-            textBoxNomeUsuario = new TextBox();
-            button1 = new Button();
-            label3 = new Label();
-            labelNomeJogador = new Label();
             label4 = new Label();
             labelPontuacaoJogador = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1A).BeginInit();
@@ -126,8 +120,6 @@
             // pictureBox1A
             // 
             pictureBox1A.Cursor = Cursors.Hand;
-            pictureBox1A.Enabled = false;
-            pictureBox1A.Image = (Image)resources.GetObject("pictureBox1A.Image");
             pictureBox1A.Location = new Point(49, 77);
             pictureBox1A.Margin = new Padding(0);
             pictureBox1A.Name = "pictureBox1A";
@@ -138,7 +130,7 @@
             // 
             // pictureBox1B
             // 
-            pictureBox1B.Image = (Image)resources.GetObject("pictureBox1B.Image");
+            pictureBox1B.Cursor = Cursors.Hand;
             pictureBox1B.Location = new Point(154, 77);
             pictureBox1B.Name = "pictureBox1B";
             pictureBox1B.Size = new Size(100, 100);
@@ -148,7 +140,7 @@
             // 
             // pictureBox1D
             // 
-            pictureBox1D.Image = (Image)resources.GetObject("pictureBox1D.Image");
+            pictureBox1D.Cursor = Cursors.Hand;
             pictureBox1D.Location = new Point(366, 77);
             pictureBox1D.Name = "pictureBox1D";
             pictureBox1D.Size = new Size(100, 100);
@@ -158,7 +150,7 @@
             // 
             // pictureBox1C
             // 
-            pictureBox1C.Image = (Image)resources.GetObject("pictureBox1C.Image");
+            pictureBox1C.Cursor = Cursors.Hand;
             pictureBox1C.Location = new Point(260, 77);
             pictureBox1C.Name = "pictureBox1C";
             pictureBox1C.Size = new Size(100, 100);
@@ -168,7 +160,7 @@
             // 
             // pictureBox1F
             // 
-            pictureBox1F.Image = (Image)resources.GetObject("pictureBox1F.Image");
+            pictureBox1F.Cursor = Cursors.Hand;
             pictureBox1F.Location = new Point(578, 77);
             pictureBox1F.Name = "pictureBox1F";
             pictureBox1F.Size = new Size(100, 100);
@@ -178,7 +170,7 @@
             // 
             // pictureBox1E
             // 
-            pictureBox1E.Image = (Image)resources.GetObject("pictureBox1E.Image");
+            pictureBox1E.Cursor = Cursors.Hand;
             pictureBox1E.Location = new Point(472, 77);
             pictureBox1E.Name = "pictureBox1E";
             pictureBox1E.Size = new Size(100, 100);
@@ -188,7 +180,7 @@
             // 
             // pictureBox6A
             // 
-            pictureBox6A.Image = Properties.Resources.postgree;
+            pictureBox6A.Cursor = Cursors.Hand;
             pictureBox6A.Location = new Point(48, 607);
             pictureBox6A.Name = "pictureBox6A";
             pictureBox6A.Size = new Size(100, 100);
@@ -198,7 +190,7 @@
             // 
             // pictureBox6B
             // 
-            pictureBox6B.Image = Properties.Resources.python;
+            pictureBox6B.Cursor = Cursors.Hand;
             pictureBox6B.Location = new Point(154, 607);
             pictureBox6B.Name = "pictureBox6B";
             pictureBox6B.Size = new Size(100, 100);
@@ -208,7 +200,7 @@
             // 
             // pictureBox2F
             // 
-            pictureBox2F.Image = (Image)resources.GetObject("pictureBox2F.Image");
+            pictureBox2F.Cursor = Cursors.Hand;
             pictureBox2F.Location = new Point(578, 183);
             pictureBox2F.Name = "pictureBox2F";
             pictureBox2F.Size = new Size(100, 100);
@@ -218,7 +210,7 @@
             // 
             // pictureBox2E
             // 
-            pictureBox2E.Image = (Image)resources.GetObject("pictureBox2E.Image");
+            pictureBox2E.Cursor = Cursors.Hand;
             pictureBox2E.Location = new Point(472, 183);
             pictureBox2E.Name = "pictureBox2E";
             pictureBox2E.Size = new Size(100, 100);
@@ -228,7 +220,7 @@
             // 
             // pictureBox2D
             // 
-            pictureBox2D.Image = (Image)resources.GetObject("pictureBox2D.Image");
+            pictureBox2D.Cursor = Cursors.Hand;
             pictureBox2D.Location = new Point(366, 183);
             pictureBox2D.Name = "pictureBox2D";
             pictureBox2D.Size = new Size(100, 100);
@@ -238,7 +230,7 @@
             // 
             // pictureBox2C
             // 
-            pictureBox2C.Image = (Image)resources.GetObject("pictureBox2C.Image");
+            pictureBox2C.Cursor = Cursors.Hand;
             pictureBox2C.Location = new Point(260, 183);
             pictureBox2C.Name = "pictureBox2C";
             pictureBox2C.Size = new Size(100, 100);
@@ -248,7 +240,7 @@
             // 
             // pictureBox2B
             // 
-            pictureBox2B.Image = (Image)resources.GetObject("pictureBox2B.Image");
+            pictureBox2B.Cursor = Cursors.Hand;
             pictureBox2B.Location = new Point(154, 183);
             pictureBox2B.Name = "pictureBox2B";
             pictureBox2B.Size = new Size(100, 100);
@@ -258,7 +250,7 @@
             // 
             // pictureBox2A
             // 
-            pictureBox2A.Image = (Image)resources.GetObject("pictureBox2A.Image");
+            pictureBox2A.Cursor = Cursors.Hand;
             pictureBox2A.Location = new Point(48, 183);
             pictureBox2A.Name = "pictureBox2A";
             pictureBox2A.Size = new Size(100, 100);
@@ -268,7 +260,7 @@
             // 
             // pictureBox6C
             // 
-            pictureBox6C.Image = Properties.Resources.react;
+            pictureBox6C.Cursor = Cursors.Hand;
             pictureBox6C.Location = new Point(260, 607);
             pictureBox6C.Name = "pictureBox6C";
             pictureBox6C.Size = new Size(100, 100);
@@ -278,7 +270,7 @@
             // 
             // pictureBox3F
             // 
-            pictureBox3F.Image = (Image)resources.GetObject("pictureBox3F.Image");
+            pictureBox3F.Cursor = Cursors.Hand;
             pictureBox3F.Location = new Point(578, 289);
             pictureBox3F.Name = "pictureBox3F";
             pictureBox3F.Size = new Size(100, 100);
@@ -288,7 +280,7 @@
             // 
             // pictureBox3E
             // 
-            pictureBox3E.Image = (Image)resources.GetObject("pictureBox3E.Image");
+            pictureBox3E.Cursor = Cursors.Hand;
             pictureBox3E.Location = new Point(472, 289);
             pictureBox3E.Name = "pictureBox3E";
             pictureBox3E.Size = new Size(100, 100);
@@ -298,7 +290,7 @@
             // 
             // pictureBox3D
             // 
-            pictureBox3D.Image = (Image)resources.GetObject("pictureBox3D.Image");
+            pictureBox3D.Cursor = Cursors.Hand;
             pictureBox3D.Location = new Point(366, 289);
             pictureBox3D.Name = "pictureBox3D";
             pictureBox3D.Size = new Size(100, 100);
@@ -308,7 +300,7 @@
             // 
             // pictureBox3C
             // 
-            pictureBox3C.Image = (Image)resources.GetObject("pictureBox3C.Image");
+            pictureBox3C.Cursor = Cursors.Hand;
             pictureBox3C.Location = new Point(260, 289);
             pictureBox3C.Name = "pictureBox3C";
             pictureBox3C.Size = new Size(100, 100);
@@ -318,7 +310,7 @@
             // 
             // pictureBox3B
             // 
-            pictureBox3B.Image = (Image)resources.GetObject("pictureBox3B.Image");
+            pictureBox3B.Cursor = Cursors.Hand;
             pictureBox3B.Location = new Point(154, 289);
             pictureBox3B.Name = "pictureBox3B";
             pictureBox3B.Size = new Size(100, 100);
@@ -328,7 +320,7 @@
             // 
             // pictureBox3A
             // 
-            pictureBox3A.Image = (Image)resources.GetObject("pictureBox3A.Image");
+            pictureBox3A.Cursor = Cursors.Hand;
             pictureBox3A.Location = new Point(48, 289);
             pictureBox3A.Name = "pictureBox3A";
             pictureBox3A.Size = new Size(100, 100);
@@ -338,7 +330,7 @@
             // 
             // pictureBox6D
             // 
-            pictureBox6D.Image = Properties.Resources.ruby;
+            pictureBox6D.Cursor = Cursors.Hand;
             pictureBox6D.Location = new Point(366, 607);
             pictureBox6D.Name = "pictureBox6D";
             pictureBox6D.Size = new Size(100, 100);
@@ -348,7 +340,7 @@
             // 
             // pictureBox4F
             // 
-            pictureBox4F.Image = Properties.Resources.excel;
+            pictureBox4F.Cursor = Cursors.Hand;
             pictureBox4F.Location = new Point(578, 395);
             pictureBox4F.Name = "pictureBox4F";
             pictureBox4F.Size = new Size(100, 100);
@@ -358,7 +350,7 @@
             // 
             // pictureBox4E
             // 
-            pictureBox4E.Image = Properties.Resources.csharp;
+            pictureBox4E.Cursor = Cursors.Hand;
             pictureBox4E.Location = new Point(472, 395);
             pictureBox4E.Name = "pictureBox4E";
             pictureBox4E.Size = new Size(100, 100);
@@ -368,7 +360,7 @@
             // 
             // pictureBox4D
             // 
-            pictureBox4D.Image = Properties.Resources.c;
+            pictureBox4D.Cursor = Cursors.Hand;
             pictureBox4D.Location = new Point(366, 395);
             pictureBox4D.Name = "pictureBox4D";
             pictureBox4D.Size = new Size(100, 100);
@@ -378,7 +370,7 @@
             // 
             // pictureBox4C
             // 
-            pictureBox4C.Image = (Image)resources.GetObject("pictureBox4C.Image");
+            pictureBox4C.Cursor = Cursors.Hand;
             pictureBox4C.Location = new Point(260, 395);
             pictureBox4C.Name = "pictureBox4C";
             pictureBox4C.Size = new Size(100, 100);
@@ -388,7 +380,7 @@
             // 
             // pictureBox4B
             // 
-            pictureBox4B.Image = Properties.Resources.angular;
+            pictureBox4B.Cursor = Cursors.Hand;
             pictureBox4B.Location = new Point(154, 395);
             pictureBox4B.Name = "pictureBox4B";
             pictureBox4B.Size = new Size(100, 100);
@@ -398,7 +390,7 @@
             // 
             // pictureBox4A
             // 
-            pictureBox4A.Image = Properties.Resources.android;
+            pictureBox4A.Cursor = Cursors.Hand;
             pictureBox4A.Location = new Point(48, 395);
             pictureBox4A.Name = "pictureBox4A";
             pictureBox4A.Size = new Size(100, 100);
@@ -408,7 +400,7 @@
             // 
             // pictureBox6E
             // 
-            pictureBox6E.Image = Properties.Resources.springboot;
+            pictureBox6E.Cursor = Cursors.Hand;
             pictureBox6E.Location = new Point(472, 607);
             pictureBox6E.Name = "pictureBox6E";
             pictureBox6E.Size = new Size(100, 100);
@@ -418,7 +410,7 @@
             // 
             // pictureBox6F
             // 
-            pictureBox6F.Image = Properties.Resources.sql;
+            pictureBox6F.Cursor = Cursors.Hand;
             pictureBox6F.Location = new Point(578, 607);
             pictureBox6F.Name = "pictureBox6F";
             pictureBox6F.Size = new Size(100, 100);
@@ -428,7 +420,7 @@
             // 
             // pictureBox5F
             // 
-            pictureBox5F.Image = Properties.Resources.npm;
+            pictureBox5F.Cursor = Cursors.Hand;
             pictureBox5F.Location = new Point(578, 501);
             pictureBox5F.Name = "pictureBox5F";
             pictureBox5F.Size = new Size(100, 100);
@@ -438,7 +430,7 @@
             // 
             // pictureBox5E
             // 
-            pictureBox5E.Image = Properties.Resources.node;
+            pictureBox5E.Cursor = Cursors.Hand;
             pictureBox5E.Location = new Point(472, 501);
             pictureBox5E.Name = "pictureBox5E";
             pictureBox5E.Size = new Size(100, 100);
@@ -448,7 +440,7 @@
             // 
             // pictureBox5D
             // 
-            pictureBox5D.Image = Properties.Resources.mysql;
+            pictureBox5D.Cursor = Cursors.Hand;
             pictureBox5D.Location = new Point(366, 501);
             pictureBox5D.Name = "pictureBox5D";
             pictureBox5D.Size = new Size(100, 100);
@@ -458,7 +450,7 @@
             // 
             // pictureBox5C
             // 
-            pictureBox5C.Image = (Image)resources.GetObject("pictureBox5C.Image");
+            pictureBox5C.Cursor = Cursors.Hand;
             pictureBox5C.Location = new Point(260, 501);
             pictureBox5C.Name = "pictureBox5C";
             pictureBox5C.Size = new Size(100, 100);
@@ -468,7 +460,7 @@
             // 
             // pictureBox5B
             // 
-            pictureBox5B.Image = Properties.Resources.java;
+            pictureBox5B.Cursor = Cursors.Hand;
             pictureBox5B.Location = new Point(154, 501);
             pictureBox5B.Name = "pictureBox5B";
             pictureBox5B.Size = new Size(100, 100);
@@ -478,7 +470,7 @@
             // 
             // pictureBox5A
             // 
-            pictureBox5A.Image = Properties.Resources.html;
+            pictureBox5A.Cursor = Cursors.Hand;
             pictureBox5A.Location = new Point(48, 501);
             pictureBox5A.Name = "pictureBox5A";
             pictureBox5A.Size = new Size(100, 100);
@@ -488,7 +480,7 @@
             // 
             // pictureBox6G
             // 
-            pictureBox6G.Image = Properties.Resources.visualstudiocode;
+            pictureBox6G.Cursor = Cursors.Hand;
             pictureBox6G.Location = new Point(684, 607);
             pictureBox6G.Name = "pictureBox6G";
             pictureBox6G.Size = new Size(100, 100);
@@ -498,7 +490,7 @@
             // 
             // pictureBox5G
             // 
-            pictureBox5G.Image = Properties.Resources.php;
+            pictureBox5G.Cursor = Cursors.Hand;
             pictureBox5G.Location = new Point(684, 501);
             pictureBox5G.Name = "pictureBox5G";
             pictureBox5G.Size = new Size(100, 100);
@@ -508,7 +500,7 @@
             // 
             // pictureBox4G
             // 
-            pictureBox4G.Image = Properties.Resources.github;
+            pictureBox4G.Cursor = Cursors.Hand;
             pictureBox4G.Location = new Point(684, 395);
             pictureBox4G.Name = "pictureBox4G";
             pictureBox4G.Size = new Size(100, 100);
@@ -518,7 +510,7 @@
             // 
             // pictureBox3G
             // 
-            pictureBox3G.Image = (Image)resources.GetObject("pictureBox3G.Image");
+            pictureBox3G.Cursor = Cursors.Hand;
             pictureBox3G.Location = new Point(684, 289);
             pictureBox3G.Name = "pictureBox3G";
             pictureBox3G.Size = new Size(100, 100);
@@ -528,7 +520,7 @@
             // 
             // pictureBox2G
             // 
-            pictureBox2G.Image = (Image)resources.GetObject("pictureBox2G.Image");
+            pictureBox2G.Cursor = Cursors.Hand;
             pictureBox2G.Location = new Point(684, 183);
             pictureBox2G.Name = "pictureBox2G";
             pictureBox2G.Size = new Size(100, 100);
@@ -538,7 +530,7 @@
             // 
             // pictureBox1G
             // 
-            pictureBox1G.Image = (Image)resources.GetObject("pictureBox1G.Image");
+            pictureBox1G.Cursor = Cursors.Hand;
             pictureBox1G.Location = new Point(684, 77);
             pictureBox1G.Name = "pictureBox1G";
             pictureBox1G.Size = new Size(100, 100);
@@ -552,63 +544,14 @@
             label1.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.Location = new Point(48, 24);
             label1.Name = "label1";
-            label1.Size = new Size(270, 21);
+            label1.Size = new Size(243, 21);
             label1.TabIndex = 46;
-            label1.Text = "Bem vindo ao jogo da memória 404";
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(756, 24);
-            label2.Name = "label2";
-            label2.Size = new Size(264, 21);
-            label2.TabIndex = 47;
-            label2.Text = "Digite seu nome e clique em iniciar";
-            // 
-            // textBoxNomeUsuario
-            // 
-            textBoxNomeUsuario.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBoxNomeUsuario.Location = new Point(809, 77);
-            textBoxNomeUsuario.Name = "textBoxNomeUsuario";
-            textBoxNomeUsuario.Size = new Size(211, 29);
-            textBoxNomeUsuario.TabIndex = 48;
-            // 
-            // button1
-            // 
-            button1.BackColor = Color.Green;
-            button1.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button1.ForeColor = SystemColors.ButtonFace;
-            button1.Location = new Point(809, 132);
-            button1.Name = "button1";
-            button1.Size = new Size(211, 45);
-            button1.TabIndex = 49;
-            button1.Text = "Iniciar";
-            button1.UseVisualStyleBackColor = false;
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Location = new Point(333, 9);
-            label3.Name = "label3";
-            label3.Size = new Size(55, 15);
-            label3.TabIndex = 50;
-            label3.Text = "Jogador: ";
-            // 
-            // labelNomeJogador
-            // 
-            labelNomeJogador.AutoSize = true;
-            labelNomeJogador.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            labelNomeJogador.Location = new Point(410, 4);
-            labelNomeJogador.Name = "labelNomeJogador";
-            labelNomeJogador.Size = new Size(17, 21);
-            labelNomeJogador.TabIndex = 51;
-            labelNomeJogador.Text = "?";
+            label1.Text = "Bem vindo ao jogo da memória ";
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(333, 40);
+            label4.Location = new Point(366, 30);
             label4.Name = "label4";
             label4.Size = new Size(70, 15);
             label4.TabIndex = 52;
@@ -618,7 +561,7 @@
             // 
             labelPontuacaoJogador.AutoSize = true;
             labelPontuacaoJogador.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            labelPontuacaoJogador.Location = new Point(409, 35);
+            labelPontuacaoJogador.Location = new Point(442, 25);
             labelPontuacaoJogador.Name = "labelPontuacaoJogador";
             labelPontuacaoJogador.Size = new Size(17, 21);
             labelPontuacaoJogador.TabIndex = 53;
@@ -628,14 +571,9 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1032, 778);
+            ClientSize = new Size(832, 747);
             Controls.Add(labelPontuacaoJogador);
             Controls.Add(label4);
-            Controls.Add(labelNomeJogador);
-            Controls.Add(label3);
-            Controls.Add(button1);
-            Controls.Add(textBoxNomeUsuario);
-            Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(pictureBox6G);
             Controls.Add(pictureBox5G);
@@ -679,6 +617,9 @@
             Controls.Add(pictureBox1C);
             Controls.Add(pictureBox1B);
             Controls.Add(pictureBox1A);
+            MaximizeBox = false;
+            MaximumSize = new Size(1048, 817);
+            MinimizeBox = false;
             Name = "FormTelaInicial";
             ShowIcon = false;
             StartPosition = FormStartPosition.CenterScreen;
@@ -731,11 +672,6 @@
 
         #endregion
         private Label label1;
-        private Label label2;
-        private TextBox textBoxNomeUsuario;
-        private Button button1;
-        private Label label3;
-        private Label labelNomeJogador;
         private Label label4;
         private Label labelPontuacaoJogador;
         public PictureBox pictureBox1A;
